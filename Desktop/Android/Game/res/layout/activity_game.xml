@@ -1,9 +1,8 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context="com.example.game.GameActivity" >
 
     <com.example.game.GameView
@@ -11,5 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="true" />
+    <ImageView   android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/temp"
+        android:layout_gravity="center"
+        android:id="@+id/temp"
+        android:contentDescription="@string/app_name"
+        />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/counter"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</FrameLayout>
