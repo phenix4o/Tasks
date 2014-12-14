@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="pieces">
+        <item>@drawable/kerrigan_piece_0</item>
+        <item>@drawable/kerrigan_piece_1</item>
+        <item>@drawable/kerrigan_piece_2</item>
+        <item>@drawable/kerrigan_piece_3</item>
+        <item>@drawable/kerrigan_piece_4</item>
+        <item>@drawable/kerrigan_piece_5</item>
+        <item>@drawable/kerrigan_piece_6</item>
+        <item>@drawable/kerrigan_piece_7</item>
+        <item>@drawable/kerrigan_piece_8</item>
+        <item>@drawable/kerrigan_piece_9</item>
+        <item>@drawable/kerrigan_piece_10</item>
+        <item>@drawable/kerrigan_piece_11</item>
+        <item>@drawable/kerrigan_piece_12</item>
+        <item>@drawable/kerrigan_piece_13</item>
+        <item>@drawable/kerrigan_piece_14</item>
+        <item>@drawable/kerrigan_piece_15</item>
+    </integer-array>
+
+</resources>
