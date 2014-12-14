@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.WindowManager;
 
 public class GameView extends View {
+
+	
 	private Bird birdie;
 	private Background back;
 	private RepeatedBackground rep;
@@ -37,12 +39,13 @@ public class GameView extends View {
 		
 	}
 
+	
+
 	public void setBitmapSize() {
 		bitmapBird = extractedBird();
 		bitmapBackground = extractedBackground();
 		bitmapBackground = getResizedBitmap(bitmapBackground, height, width);
-		/*bitmapBird = getResizedBitmap(bitmapBird, 0.19f * height,
-				0.105f * width);*/
+		//bitmapBird = getResizedBitmap(bitmapBird, 0.19f * height,0.105f * width);
 		birdie.setBitmap(bitmapBird);
 		rep.setBitmap(bitmapBackground);
 		back.setBitmap(bitmapBackground);
