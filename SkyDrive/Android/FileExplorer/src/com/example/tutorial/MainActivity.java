@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.R;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.net.Uri;
